@@ -63,7 +63,7 @@ pipeline {
                 -Dsonar.projectKey=Tavhuu_8.2C \
                 -Dsonar.organization=tavhuu \
                 -Dsonar.host.url=https://sonarcloud.io \
-                -Dsonar.login=${SONAR_TOKEN} \
+                -Dsonar.login=${7023c6e4d71b7494fe10be14212a3fbd34c92fbc} \
                 -Dsonar.sources=. \
                 -Dsonar.exclusions=node_modules/**,test/** \
                 -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
